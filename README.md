@@ -1,2 +1,2 @@
-# data-analysis2022
+# data-analysis-2022
 Курс Анализ данных осень 2022
