@@ -1,2 +1,2 @@
-# data-analysis-2022
-Курсы ИРИТ-РтФ
+# IRIT RTF courses, RI-491223
+Курсы ИРИТ-РтФ 2022
