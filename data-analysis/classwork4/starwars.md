@@ -15,22 +15,22 @@
 ##### С помощью функции distinct выберите уникальные цвета волос  
 > starwars %>% distinct(hair_color)   
 
-> A tibble: 13 x 1  
-   hair_color     
-   <chr>          
- 1 blond          
- 2 NA             
- 3 none           
- 4 brown          
- 5 brown, grey     
- 6 black          
- 7 auburn, white  
- 8 auburn, grey   
- 9 white          
-10 grey           
+> A tibble: 13 x 1    
+   hair_color       
+   <chr>            
+ 1 blond            
+ 2 NA               
+ 3 none             
+ 4 brown            
+ 5 brown, grey       
+ 6 black            
+ 7 auburn, white    
+ 8 auburn, grey     
+ 9 white            
+10 grey             
 11 auburn         
-12 blonde         
-13 unknown        
+12 blonde          
+13 unknown          
    
 ##### Сгруппируйте по цвету волос и посчитайте сколько всего строк каждого цвета
 > starwars %>%    
