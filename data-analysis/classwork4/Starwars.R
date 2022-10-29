@@ -1,4 +1,4 @@
-#Устанавиить пакеты
+#Устанавить пакеты
 #install.packages("tidyverse")
 #install.packages("dplyr")
 library(dplyr)
