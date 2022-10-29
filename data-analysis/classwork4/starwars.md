@@ -37,20 +37,20 @@
 
 > A tibble: 13 x 2  
    hair_color    count  
-   <chr>         <int>  
- 1 auburn            1  
- 2 auburn, grey      1  
- 3 auburn, white     1  
- 4 black            13  
- 5 blond             3  
- 6 blonde            1  
- 7 brown            18  
- 8 brown, grey       1  
- 9 grey              1  
-10 none             37  
-11 unknown           1  
-12 white             4  
-13 NA                5  
+   <chr>         <int>   
+ 1 auburn            1   
+ 2 auburn, grey      1    
+ 3 auburn, white     1   
+ 4 black            13    
+ 5 blond             3    
+ 6 blonde            1    
+ 7 brown            18    
+ 8 brown, grey       1    
+ 9 grey              1    
+10 none             37    
+11 unknown           1    
+12 white             4    
+13 NA                5    
 ##### Отсортируйте по убыванию то что получили выше
 > starwars %>%  
 >   group_by(hair_color) %>%  
