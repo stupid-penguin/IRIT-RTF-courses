@@ -11,7 +11,8 @@
 [1] 87  
 
 > summary(starwars)  
-##### С помощью функции distinct выберите уникальные цвета волос
+
+##### С помощью функции distinct выберите уникальные цвета волос  
 > starwars %>% distinct(hair_color)   
 
 > A tibble: 13 x 1  
