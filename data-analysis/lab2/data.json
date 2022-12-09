@@ -15,13 +15,13 @@
                     "firstname": "Анджелина",
                     "lastname": "Джоли"
                     }
-                ],
+            ],
             "director": [
                 {
                 "firstname": "Иэн",
                 "lastname": "Софтли"  
                 }
-                ]
+            ]
         },
         {
             "movie id": "6132",
@@ -33,7 +33,7 @@
                     "firstname": "Сандра",
                     "lastname": "Буллок"
                     }
-                ],
+            ],
             "director": [
                 {
                 "firstname": "Ирвин",
@@ -61,7 +61,7 @@
                     "firstname": "Дольф",
                     "lastname": "Лундгрен"
                     }
-                ],
+            ],
             "director": [
                 {
                 "firstname": "Роберт",
