@@ -70,24 +70,24 @@ lm_weight_height <- lm(whole_weight~height, data = results_data)
 plot(lm_weight_height)
 summary(lm_weight_height)
 
-# Разделим массив на две части и займёмся прогнозированием значений
+#Деление массива на две части и прогнозирование значений
 results_data_random <- results_data
 odds <- seq(1, nrow(results_data_random), by=2)
 train <- results_data_random[odds,]
 test <- results_data_random[-odds,]
 
 par(mfrow=c(1,4))
-linear_model_half <- lm (whole_weight ~ ., data=train)
+linear_model_half <- lm (diameter ~ ., data=train)
 plot(linear_model_half)
 summary(linear_model_half)
 
-# Проанализируем тренировочные и тестовые данные
+# Анализ тренировочных и тестовых данных
 data_predict <- predict(linear_model_half)
-cor(train$whole_weight, data_predict)
+cor(train$diameter, data_predict)
 
 data_predict_out <- predict(linear_model_half, test)
-cor(test$whole_weight, data_predict_out)
+cor(test$diameter, data_predict_out)
 
 par(mfrow=c(1,2))
-plot(train$whole_weight, data_predict, main = "Тренировочные данные")
-plot(test$whole_weight, data_predict_out, main = "Тестовые данные")
+plot(train$diameter, data_predict, main = "Тренировочные данные")
+plot(test$diameter, data_predict_out, main = "Тестовые данные")
